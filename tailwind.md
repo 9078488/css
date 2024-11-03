@@ -42,7 +42,8 @@ package.json里面：
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i .css"   //重点
+    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",  重点
+    "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"  重点
   },
   "keywords": [],
   "author": "",
@@ -51,5 +52,9 @@ package.json里面：
     "tailwindcss": "^3.4.14"
   }
 }
-
 ```
+
+`npm run build`
+
+
+> https://www.jsdelivr.com/package/npm/remixicon
