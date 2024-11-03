@@ -14,3 +14,14 @@
 `npm install -D tailwindcss`
 
  > [`npx tailwindcss init`](https://tailwindcss.com/docs/installation)
+
+```
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*.{html,js}"],   //重点
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
