@@ -25,3 +25,31 @@ module.exports = {
   plugins: [],
 }
 ```
+
+根目录建一个`css`文件夹->建一个`input.css`，copy如下：
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+
+package.json里面：
+```
+{
+  "name": "2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i .css"   //重点
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
+
+```
