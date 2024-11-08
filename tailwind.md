@@ -1,60 +1,12 @@
-# 安装
-> https://tailwindcss.com/docs/installation
+>  官方教程
+>  https://tailwindcss.com/docs/installation
 
-# Tailwind CSS IntelliSense
-在 VS CODE中安装`Tailwind CSS IntelliSense`插件
+# 安装（Vite环境）
+参照教程链接：
+> https://tailwindcss.com/docs/guides/vite
 
-# YouTube教程1
-> https://www.youtube.com/watch?v=qmMIz0_c9Ek
+# VS CODE插件
+ Tailwind CSS IntelliSense
 
-新建一个文件夹  -> 里面再建一个`assets`
-
-`npm init -y`
-
-`npm install -D tailwindcss`
-
- > [`npx tailwindcss init`](https://tailwindcss.com/docs/installation)
-
-```
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["*.{html,js}"],   //重点
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-根目录建一个`css`文件夹->建一个`input.css`，copy如下：
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-
-package.json里面：
-```
-{
-  "name": "2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css",  重点
-    "watch": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch"  重点
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.4.14"
-  }
-}
-```
-
-`npm run build`
-
-
-> https://www.jsdelivr.com/package/npm/remixicon
+# Using with Preprocessors
+It’s important to note that you don’t need to use a preprocessor with Tailwind
