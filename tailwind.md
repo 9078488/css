@@ -13,3 +13,6 @@ It’s important to note that you don’t need to use a preprocessor with Tailwi
 
 # Optimizing for Production
 跳过
+
+#  Autoprefixer
+`npm install -D autoprefixer`
