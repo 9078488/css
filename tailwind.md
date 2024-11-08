@@ -16,3 +16,6 @@ It’s important to note that you don’t need to use a preprocessor with Tailwi
 
 #  Autoprefixer
 `npm install -D autoprefixer`
+
+# Upgrade Guide
+跳过
