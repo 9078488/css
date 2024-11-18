@@ -22,4 +22,5 @@ It’s important to note that you don’t need to use a preprocessor with Tailwi
 
 
 [https://tailwindcss.com/docs/utility-first](https://tailwindcss.com/docs/hover-focus-and-other-states)
-Styling based on parent state (group-{modifier})
+
+Differentiating nested groups
