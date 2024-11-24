@@ -1,26 +1,73 @@
->  官方教程
->  https://tailwindcss.com/docs/installation
+# Getting Started
+## Installation
+https://tailwindcss.com/docs/guides/vite
 
-# 安装（Vite环境）
-参照教程链接：
-> https://tailwindcss.com/docs/guides/vite
+# Core Concepts
 
-# VS CODE插件
- Tailwind CSS IntelliSense
+# Customization
 
-# Using with Preprocessors
-It’s important to note that you don’t need to use a preprocessor with Tailwind
+# Base Styles
 
-# Optimizing for Production
-跳过
+# Layout
 
-#  Autoprefixer
-`npm install -D autoprefixer`
+# Flexbox & Grid
 
-# Upgrade Guide
-跳过
+# Spacing
+
+# Sizing
+
+# Typography
+## Font Family
+## Font Size `text-base`
 
 
-[https://tailwindcss.com/docs/utility-first](https://tailwindcss.com/docs/hover-focus-and-other-states)
+## Font Smoothing
+## Font Style
+## Font Weight `font-normal`
 
-Styling based on descendants (has-{modifier})
+
+## Font Variant Numeric
+## Letter Spacing
+## Line Clamp
+## Line Height
+## List Style Image
+## List Style Position
+## List Style Type
+## Text Align `text-left`
+## Text Color `text-black`
+## Text Decoration `no-underline`
+## Text Decoration Color `decoration-black`
+## Text Decoration Style `decoration-solid`
+## Text Decoration Thickness `decoration-1`
+## Text Underline Offset
+## Text Transform `normal-case`
+## Text Overflow
+## Text Wrap
+## Text Indent
+## Vertical Align
+## Whitespace
+## Word Break
+## Hyphens
+## Content
+
+# Backgrounds
+
+# Borders
+
+# Effects
+
+# Filters
+
+# Tables
+
+# Transitions & Animation 
+
+# Transforms
+
+# Interactivity
+
+# SVG
+
+# Accessibility
+
+# Official Plugins
